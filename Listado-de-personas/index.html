@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Personas</title>
+    <link href="estilos.css" rel="stylesheet"/>
+    <script src='persona.js' defer></script> 
+    <script src='app.js' defer></script> 
+</head>
+<body>
+    <div class='contenedor cabecero'>
+        <h1>Listado de Personas</h1>
+    </div>   
+
+    <div class="contenedor">
+        <div class="elemento">
+            <ul class="personas"></ul>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="sub-contenedor">
+            <button class="btn-agregar-personas">+</button>
+        </div>
+        <form class="form">
+            <input type="text" class="nombre" placeholder="Nombre"/>
+            <input type="text" class="apellido" placeholder="Apellido"/>
+        </form>
+    </div>
+
+</body>
+</html>
